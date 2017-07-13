@@ -1,1 +1,11 @@
-Hello Sankalp
+<html ng-app="myapp">
+	<head>
+		<script src="vendor/angular.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controller.js"></script>
+	</head>
+	<body ng-controller="mycontroller as c1">Hello Sankalp
+		Enter the number: <input type="text" ng-model="c1.input"/>
+		<span>{{c1.input}}</span>
+	</body>
+</html>
